@@ -71,7 +71,7 @@ export default function BeforeAfter() {
           {/* AFTER Image (Background) */}
           <div className={styles.imageWrapper}>
             <Image
-              src="https://images.unsplash.com/photo-1595246140625-573b715d11dc?auto=format&fit=crop&q=80&w=1200"
+              src="/images/classic_red_bridal.jpg"
               alt="Bridal Look After"
               fill
               className={styles.image}
@@ -87,10 +87,11 @@ export default function BeforeAfter() {
             style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
           >
             <Image
-              src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=1200"
+              src="/images/classic_red_bridal.jpg"
               alt="Bridal Look Before"
               fill
               className={styles.image}
+              style={{ filter: 'grayscale(100%) sepia(20%) contrast(85%)' }}
               sizes="(max-width: 1200px) 100vw, 1200px"
               priority
             />

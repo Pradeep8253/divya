@@ -13,7 +13,7 @@ export const services = [
       "Hairstyling & Saree/Lehenga Draping",
       "Jewelry setting"
     ],
-    image: "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&q=80&w=800",
+    image: "/images/classic_red_bridal.jpg",
     category: "makeup"
   },
   {
@@ -29,7 +29,7 @@ export const services = [
       "Hairstyling",
       "Draping"
     ],
-    image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=800",
+    image: "/images/modern_reception.jpg",
     category: "makeup"
   },
   {
@@ -45,7 +45,7 @@ export const services = [
       "Faux lashes (optional)",
       "Setting spray"
     ],
-    image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&q=80&w=800",
+    image: "/images/soft_glam_engagement.jpg",
     category: "makeup"
   },
   {
@@ -62,7 +62,7 @@ export const services = [
       "Floral setting", 
       "Jewelry placement"
     ],
-    image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=800",
+    image: "/images/floral_bun_hairstyle.jpg",
     category: "hairstyle"
   }
 ];

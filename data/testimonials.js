@@ -4,21 +4,21 @@ export const testimonials = [
     name: "Priya Sharma",
     event: "Bridal Wedding",
     text: "Divya is an absolute magician. She understood exactly what I wanted and made me look like the best version of myself. The makeup didn't budge for 12 hours despite the summer heat and happy tears. Truly the best decision I made for my wedding.",
-    image: "https://images.unsplash.com/photo-1595246140625-573b715d11dc?auto=format&fit=crop&q=80&w=400"
+    image: "/images/classic_red_bridal.jpg"
   },
   {
     id: "t2",
     name: "Anjali Desai",
     event: "Engagement & Wedding",
     text: "I booked Divya for both my engagement and wedding, and the looks were so distinct yet beautifully crafted. Her energy is so calming on such a chaotic day, and her attention to detail is unmatched.",
-    image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&q=80&w=400"
+    image: "/images/soft_glam_engagement.jpg"
   },
   {
     id: "t3",
     name: "Neha Patel",
     event: "Reception",
     text: "I wanted a very modern, subtle glam for my reception and Divya delivered beyond my expectations. The skin prep she did made my skin glow from within.",
-    image: "https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&q=80&w=400"
+    image: "/images/modern_reception.jpg"
   }
 ];
 
@@ -30,7 +30,7 @@ export const stories = [
     look: "Traditional Rajasthani Bridal Glam",
     services: ["HD Makeup", "Floral Bun", "Double Dupatta Draping"],
     story: "Meera wanted a classic royal look to match her heritage venue. We focused on deep, rich colors with a flawless matte finish to withstand the outdoor ceremonies.",
-    image: "https://images.unsplash.com/photo-1595246140625-573b715d11dc?auto=format&fit=crop&q=80&w=1200"
+    image: "/images/classic_red_bridal.jpg"
   }
 ];
 
@@ -69,7 +69,7 @@ export const looks = [
     makeup: "Dewy finish, soft champagne eyes, nude glossy lips",
     hairstyle: "Textured low bun with minimal florals",
     occasion: "Day Wedding / Engagement",
-    image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&q=80&w=800"
+    image: "/images/soft_glam_engagement.jpg"
   },
   {
     id: "l2",
@@ -77,7 +77,7 @@ export const looks = [
     makeup: "Matte HD finish, classic winged liner, bold red lips",
     hairstyle: "Traditional high bun with heavy jewelry setting",
     occasion: "Traditional Evening Wedding",
-    image: "https://images.unsplash.com/photo-1595246140625-573b715d11dc?auto=format&fit=crop&q=80&w=800"
+    image: "/images/classic_red_bridal.jpg"
   },
   {
     id: "l3",
@@ -85,6 +85,6 @@ export const looks = [
     makeup: "Flawless skin, smokey brown eyes, muted rose lips",
     hairstyle: "Hollywood waves / Open curls",
     occasion: "Reception / Cocktail",
-    image: "https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&q=80&w=800"
+    image: "/images/modern_reception.jpg"
   }
 ];

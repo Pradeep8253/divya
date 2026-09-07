@@ -76,19 +76,19 @@ export default function BridalQuiz() {
       return {
         title: "The Classic Royal",
         description: "Your answers suggest you lean towards a timeless, enduring look. We recommend our Signature HD Matte finish paired with a traditional updo to complement heavy jewelry.",
-        image: "https://images.unsplash.com/photo-1595246140625-573b715d11dc?auto=format&fit=crop&q=80&w=600"
+        image: "/images/classic_red_bridal.jpg"
       };
     } else if (vibe === 'modern' || finish === 'natural') {
       return {
         title: "The Modern Minimalist",
         description: "You appreciate understated elegance. We recommend an airbrushed, skin-like finish focusing on glowing skin and soft, textured hair.",
-        image: "https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&q=80&w=600"
+        image: "/images/modern_reception.jpg"
       };
     } else {
       return {
         title: "The Contemporary Glam",
         description: "You want a flawless, balanced look. We recommend our Soft Glam package featuring a dewy base, striking eyes, and Hollywood waves.",
-        image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&q=80&w=600"
+        image: "/images/soft_glam_engagement.jpg"
       };
     }
   };

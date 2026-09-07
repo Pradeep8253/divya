@@ -32,7 +32,7 @@ export default function AboutPage() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '24px' }}>
             <div style={{ position: 'relative', aspectRatio: '4/5', width: '100%', overflow: 'hidden' }}>
               <Image 
-                src="https://images.unsplash.com/photo-1595246140625-573b715d11dc?auto=format&fit=crop&q=80&w=800"
+                src="/images/classic_red_bridal.jpg"
                 alt="Divya working on a bride"
                 fill
                 style={{ objectFit: 'cover' }}
@@ -41,7 +41,7 @@ export default function AboutPage() {
             </div>
             <div style={{ position: 'relative', aspectRatio: '4/5', width: '100%', overflow: 'hidden', transform: 'translateY(40px)' }}>
               <Image 
-                src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&q=80&w=800"
+                src="/images/modern_reception.jpg"
                 alt="Bridal details"
                 fill
                 style={{ objectFit: 'cover' }}
