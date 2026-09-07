@@ -30,6 +30,8 @@ export default function Hero() {
 
       // Mouse Parallax Effect
       const handleMouseMove = (e) => {
+        if (!imageRef.current) return;
+        
         const { clientX, clientY } = e;
         const xPos = (clientX / window.innerWidth - 0.5) * 20;
         const yPos = (clientY / window.innerHeight - 0.5) * 20;

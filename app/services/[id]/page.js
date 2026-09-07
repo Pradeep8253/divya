@@ -10,14 +10,16 @@ export function generateStaticParams() {
   }));
 }
 
-export function generateMetadata({ params }) {
-  const service = services.find(s => s.id === params.id);
+export async function generateMetadata({ params }) {
+  const resolvedParams = await params;
+  const service = services.find(s => s.id === resolvedParams.id);
   if (!service) return { title: "Service Not Found" };
   return { title: `${service.name} | Divya Makeup Artist` };
 }
 
-export default function ServiceDetail({ params }) {
-  const service = services.find(s => s.id === params.id);
+export default async function ServiceDetail({ params }) {
+  const resolvedParams = await params;
+  const service = services.find(s => s.id === resolvedParams.id);
   
   if (!service) {
     notFound();
@@ -52,7 +54,7 @@ export default function ServiceDetail({ params }) {
             <div style={{ marginBottom: '48px' }}>
               <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.5rem', color: 'var(--ivory)', marginBottom: '24px' }}>What's Included:</h3>
               <ul style={{ listStyle: 'none', padding: 0, display: 'flex', flexDirection: 'column', gap: '16px' }}>
-                {service.includes.map((item, i) => (
+                {service.inclusions.map((item, i) => (
                   <li key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', fontFamily: 'var(--font-sans)', color: 'var(--muted)', lineHeight: 1.5 }}>
                     <div style={{ width: '6px', height: '6px', borderRadius: '50%', backgroundColor: 'var(--champagne)', marginTop: '10px', flexShrink: 0 }}></div>
                     {item}
