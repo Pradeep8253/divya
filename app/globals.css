@@ -33,6 +33,7 @@ html, body {
   color: var(--ivory);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 1px;
 }
 
 /* Typography */

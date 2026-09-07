@@ -80,7 +80,7 @@ export default function About() {
         <div className={styles.imageColumn}>
           <div className={styles.imageWrapper} ref={imageRef}>
             <Image
-              src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&q=80&w=800"
+              src="/ab.webp"
               alt="Divya - Premium Bridal Makeup Artist"
               fill
               className={styles.image}

@@ -67,12 +67,12 @@
 }
 
 .title {
-  font-family: var(--font-serif);
-  font-size: clamp(3.5rem, 8vw, 8rem);
-  line-height: 0.95;
-  color: var(--ivory);
-  margin-bottom: 32px;
-  text-transform: uppercase;
+    font-family: var(--font-serif);
+    color: var(--ivory);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: clamp(3rem, 6vw, 7rem);
+    line-height: .95;
 }
 
 .description {

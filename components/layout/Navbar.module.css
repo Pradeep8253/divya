@@ -174,3 +174,11 @@
   padding: 16px 32px;
   text-transform: uppercase;
 }
+
+
+
+@media (min-width: 768px){
+.mobileNavLink {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;}
+}

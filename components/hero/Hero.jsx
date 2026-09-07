@@ -59,7 +59,7 @@ export default function Hero() {
       <div className={styles.imageContainer}>
         <div className={styles.imageWrapper} ref={imageRef}>
           <Image 
-            src="https://images.unsplash.com/photo-1595246140625-573b715d11dc?auto=format&fit=crop&q=80&w=1920"
+            src="/hero.jpg"
             alt="Divya Bridal Beauty"
             fill
             priority
@@ -83,7 +83,7 @@ export default function Hero() {
             BOOK YOUR DATE
           </Link>
           <Link href="/portfolio" className="button-secondary">
-            EXPLORE PORTFOLIO
+            SEE PORTFOLIO
           </Link>
         </div>
       </div>
